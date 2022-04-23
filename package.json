@@ -2,7 +2,6 @@
   "name": "Light.industry",
   "version": "1.0.0",
   "description": "Your next desk light",
-  "main": "index.html",
   "repository": "https://github.com/FDufBos/desk-light.git",
   "author": "Francesco",
   "license": "MIT",
