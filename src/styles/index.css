@@ -3,7 +3,5 @@
 @tailwind utilities;
 
 @layer components {
-  .btn-primary {
-    @apply ;
-  }
+
 }

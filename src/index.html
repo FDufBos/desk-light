@@ -8,38 +8,40 @@
   <title>Notion Light</title>
 </head>
 <body>
-  <header class="flex flex-row justify-between items-center px-12 top-0 left-0 w-full z-10 bg-slate-100 h-24">
-    <h1 class="text-5xl font-bold flex-1">Light</h1>
-    <img src="./img/eyes_1f440.png" alt="face" />
+  <header class="flex fixed flex-row justify-between items-center px-4 md:px-12 top-1 left-0 w-full z-50 h-14 gap-2">
+    <h1 class="text-2xl font-bold flex-1">light.industries</h1>
+    <img src="./img/eyes_1f440.png" alt="face" class="h-1/2" />
     <nav class="flex-1 text-right">
-        <a href="#" class="font-slate-700 px-2">Features</a>
-        <a href="#" class="font-slate-700 px-2">Similar</a>
-        <a href="#" class="font-slate-700 px-2">About</a>
-        <a href="#" class="font-slate-700 px-2">Cart</a>
+        <a href="#" class="text-black hover:bg-black hover:text-neutral-100 hover:shadow-md transition-all duration-500 font-medium px-4 py-1 rounded-full border-2 border-black">Buy</a>
     </nav>
 </header>
-<section class="hero bg-slate-100 px-12 py-64 bg-[url('../img/day.jpeg')] bg-contain bg-no-repeat bg-right">
-  <h2 class="text-3xl font-bold max-w-md">Your desk's new best friend</h2>
-  <p class="prose max-w-md">Convenient, portable, cordless. The to-do light keeps your work cozy and your relaxing cozier</p>
-  <a href="#" class="button inline-block text-slate-50 rounded-full px-4 py-2 bg-slate-700">Read more</a>
+
+<section class="hero relative flex items-center gap-10 bg-slate-100 px-2 md:px-32 py-36 md:py-40 bg-[url('../img/day.jpeg')] md:bg-contain bg-no-repeat bg-bottom md:bg-right min-h-screen">
+  <h2 class="text-8xl leading-[90px] md:leading-[100px] tracking-tight md:tracking-normal font-bold max-w-md">Your desk's new best friend</h2>
+  <!-- <p class="prose max-w-md">Convenient, portable, cordless. The to-do light keeps your work cozy and your relaxing cozier</p> -->
+  <!-- <a href="#" class="button inline-block text-slate-50 rounded-full px-4 py-2 bg-slate-700 max-w-fit">Read more</a> -->
 </section>
-<section class="content m-12 flex flex-row">
-  <div class="image">
-    <img src="./img/night.jpeg"/>
+
+<section class="flex py-24 items-center md:items-start md:p-32 bg-neutral-900 h-screen md:h-auto">
+  <div class="w-full md:w-auto">
+    <img class=" shadow-[0px_0px_200px_10px_rgba(225,180,109,0.1)]" src="./img/night.jpeg"/>
   </div>
-  <div class="content">
-    <h3 class="text-2xl font-semibold">Light where you need it</h3>
-    <p class="prose">Created with precision machinery and crafted with light oak, the To-Do adds an elegant touch to any setup.</p>
-  </div>
-</section>
-<section class="content m-12 flex flex-row">
-  <div class="image">
-    <img src="./img/lantern.jpeg"/>
-  </div>
-  <div class="content">
-    <h3 class="text-2xl font-semibold">Not just a desk light</h3>
-    <p class="prose">Fold and flip to turn your To-do into a lantern, perfect for midnight reading</p>
+  <div class="md:m-28 flex flex-col gap-4 absolute w-12">
+    <h3 class="absolute -top-8 text-8xl md:text-9xl font-medium text-amber-400 mix-blend-hard-light drop-shadow-sm">30+ Hours Battery Life</h3>
+  
   </div>
 </section>
+
+<section class="flex p-8 py-24 md:p-32 flex-row-reverse bg-neutral-400 h-screen md:h-auto">
+  <div class="">
+    <img class=" shadow-[0px_0px_200px_10px_rgba(225,180,109,0.1)]" src="./img/lantern.jpeg"/>
+  </div>
+  <div class="left-[2%] md:left-[34%] flex flex-col gap-4 absolute w-12">
+    <h3 class="absolute mt-72 text-8xl md:text-9xl font-medium text-sky-600 drop-shadow-sm">Lantern Mode</h3>
+  
+  </div>
+  
+</section>
+
 </body>
 </html>
