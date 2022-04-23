@@ -221,6 +221,7 @@ img, video {
   --tw-backdrop-sepia: ;
 }
 
+<<<<<<< HEAD
 .prose {
   color: var(--tw-prose-body);
   max-width: 65ch;
@@ -629,12 +630,17 @@ img, video {
 
 .top-1 {
   top: .25rem;
+=======
+.top-0 {
+  top: 0;
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 }
 
 .left-0 {
   left: 0;
 }
 
+<<<<<<< HEAD
 .-top-8 {
   top: -2rem;
 }
@@ -653,12 +659,17 @@ img, video {
 
 .inline-block {
   display: inline-block;
+=======
+.z-10 {
+  z-index: 10;
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 }
 
 .flex {
   display: flex;
 }
 
+<<<<<<< HEAD
 .h-14 {
   height: 3.5rem;
 }
@@ -675,10 +686,13 @@ img, video {
   min-height: 100vh;
 }
 
+=======
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 .w-full {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-12 {
   width: 3rem;
 }
@@ -691,6 +705,8 @@ img, video {
   max-width: fit-content;
 }
 
+=======
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 .flex-1 {
   flex: 1;
 }
@@ -699,6 +715,7 @@ img, video {
   flex-direction: row;
 }
 
+<<<<<<< HEAD
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -707,6 +724,8 @@ img, video {
   flex-direction: column;
 }
 
+=======
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 .items-center {
   align-items: center;
 }
@@ -715,6 +734,7 @@ img, video {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .gap-2 {
   gap: .5rem;
 }
@@ -740,11 +760,14 @@ img, video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity) );
 }
 
+=======
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity) );
 }
 
+<<<<<<< HEAD
 .bg-slate-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity) );
@@ -776,11 +799,14 @@ img, video {
   padding: 2rem;
 }
 
+=======
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
+<<<<<<< HEAD
 .py-1 {
   padding-top: .25rem;
   padding-bottom: .25rem;
@@ -806,10 +832,13 @@ img, video {
   padding-bottom: 6rem;
 }
 
+=======
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 .text-right {
   text-align: right;
 }
 
+<<<<<<< HEAD
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -817,6 +846,10 @@ img, video {
 
 .text-8xl {
   font-size: 6rem;
+=======
+.text-5xl {
+  font-size: 3rem;
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
   line-height: 1;
 }
 
@@ -824,6 +857,7 @@ img, video {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .font-medium {
   font-weight: 500;
 }
@@ -959,4 +993,6 @@ img, video {
   }
 }
 
+=======
+>>>>>>> 63854f1211bf50860d246870a7081e25ae9b3263
 /*# sourceMappingURL=index.ebeadb08.css.map */
