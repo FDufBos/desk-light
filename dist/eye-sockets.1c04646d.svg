@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 154.07 119.71">
+  <defs>
+    <style>.j {
+  fill: url("#e");
+}
+
+.k {
+  fill: url("#h");
+}
+
+</style>
+    <radialGradient id="e" cx="35.69" cy="59.85" fx="35.69" fy="59.85" r="61.39" gradientTransform="translate(-.21 95.65) rotate(-90.18) scale(1 .6)" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="#fff"></stop>
+      <stop offset=".85" stop-color="#f1f1f1"></stop>
+      <stop offset=".86" stop-color="#ebebeb"></stop>
+      <stop offset=".88" stop-color="#dcdcdc"></stop>
+      <stop offset=".91" stop-color="#c2c2c2"></stop>
+      <stop offset=".93" stop-color="#a0a0a0"></stop>
+      <stop offset=".95" stop-color="#898989"></stop>
+      <stop offset=".98" stop-color="#707070"></stop>
+      <stop offset="1" stop-color="#686868"></stop>
+    </radialGradient>
+    <radialGradient id="h" cx="118.39" fx="118.39" gradientTransform="translate(82.75 178.35) rotate(-90.18) scale(1 .6)" xlink:href="#e"></radialGradient>
+  </defs>
+  <g id="a"></g>
+  <g id="b">
+    <g id="c">
+      <g id="d">
+        <ellipse id="f" class="j" cx="35.69" cy="59.85" rx="35.69" ry="59.85"></ellipse>
+      </g>
+      <g id="g">
+        <ellipse id="i" class="k" cx="118.39" cy="59.85" rx="35.69" ry="59.85"></ellipse>
+      </g>
+    </g>
+  </g>
+</svg>

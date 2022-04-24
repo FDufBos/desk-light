@@ -515,6 +515,6 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"4M6V8":[function(require,module,exports) {
 
-},{}]},["cT11E","4M6V8"], "4M6V8", "parcelRequire78c8")
+},{}]},["cT11E","4M6V8"], "4M6V8", "parcelRequire8b69")
 
 //# sourceMappingURL=desk-light.59712999.js.map

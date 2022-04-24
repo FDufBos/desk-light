@@ -7,8 +7,8 @@ module.exports = {
       fontSize: {
         '10xl':'10rem',
         '11xl':'12rem'
-      }
-    },
+        }
+      },
   },
   plugins: [
     require('@tailwindcss/typography')
