@@ -40,7 +40,7 @@ const moveEye = (tag, mouseX, mouseY) => {
   const diff = Math.sqrt(diffX * diffX + diffY * diffY);
 
   //what is capped radius?
-  const radius = Math.min(5,diff)
+  const radius = Math.min(3.5,diff)
 
   //angle between diffX and diffY
   //tan in math
